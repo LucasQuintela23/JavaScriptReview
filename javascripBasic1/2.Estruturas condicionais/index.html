@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptbasic1</title>
+</head>
+<body>
+
+    <h1>Estruturas Condicionais</h1>
+
+    <script>
+        var idade = 17;
+
+        if(idade >= 18){
+            console.log("Maior idade");
+        }else{
+            console.log("Menor de idade");
+        }
+      
+        if(idade <=14){
+            console.log("Crianças");
+        }else if(idade > 14 && idade < 18){
+            console.log("Adolescente");
+        }else{
+            console.log("Adulto");
+        }
+
+
+
+        //Verificar valor(==)
+        if(1 == "1"){
+            console.log("Sim, 1, == ¨1¨");
+        }else{
+            console.log("não");
+        }
+
+        //Verificar valor e tipo de dado(===)
+
+        if(1 === "1"){
+            console.log("Sim, 1, === ¨1¨");
+        }else{
+            console.log("não");
+        }
+        
+
+        var sexo = '0';
+
+        switch(sexo){
+            case 'm':
+                console.log("Maculino");
+                break;
+            case 'f':    
+                console.log("Feminino");
+                break;
+            default:
+                console.log("Desconhecido")
+        }
+
+
+    </script>
+    
+</body>
+</html>
