@@ -1,0 +1,1 @@
+// https://chatgpt.com/g/g-VcsBiIeKp-especialista-em-qa/c/679529f4-1408-800e-86e8-7f2c1093aea1
