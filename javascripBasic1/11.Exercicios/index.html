@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptbasic1</title>
+</head>
+<body>
+
+    <h1>Exercicios</h1>
+    <script>
+
+    function exibirImpares(inicio, fim) {
+        // Garantir que o menor número esteja em "inicio" e o maior em "fim"
+        let menor = Math.min(inicio, fim);
+        let maior = Math.max(inicio, fim);
+
+        console.log(`Números ímpares entre ${menor} e ${maior}:`);
+        
+        for (let numero = menor + 1; numero < maior; numero++) {
+            if (numero % 2 !== 0) { // Verifica se o número é ímpar
+                console.log(numero);
+            }
+        }
+    }
+
+    // Exemplo de uso
+    exibirImpares(3, 20);
+
+    </script>
+    
+</body>
+</html>
